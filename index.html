@@ -4,14 +4,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Prata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Prata&display=swap" rel="stylesheet">
     <!-- Main Styles -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Page title -->
     <title>Lina</title>
 </head>
 <body>
-    
+    <header class="pt-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-3">
+                    <div class="logo" draggable="true">
+                        <a href="#">Lina.</a>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="main-menu">
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="#">About</a>
+                            <a href="#">Services</a>
+                            <a href="#">Clients</a>
+                            <a href="#">Contact</a>
+                          </div>
+                        <div class="ui-menu mt-1" draggable="true" onclick="openNav()">
+                            <span class="mr-1">MENU</span>
+                            <img src="icons/menu.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     
 
     <!-- Optional JavaScript -->
@@ -19,5 +46,17 @@
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.0/lottie.min.js"></script>
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 </body>
 </html>
