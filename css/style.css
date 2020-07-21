@@ -112,7 +112,13 @@ ul {
 /* Head Section */
 
 .tophead {
-    background: linear-gradient(to left, #fff 60%, #1c1d24 40%);
+    background: linear-gradient(to left, #fff 70%, #1c1d24 30%);
     ;
     height: 100vh;
+}
+
+.pictureme img {
+    max-width: 100%;
+    height: 450px;
+    object-fit: cover;
 }
