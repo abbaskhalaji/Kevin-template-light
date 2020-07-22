@@ -7,18 +7,25 @@ body {
 
 a {
     text-decoration: none !important;
+    transition: all .3s;
 }
 
 img {
     max-width: 100%;
+    object-fit: cover;
 }
 
 ul {
     padding: 0;
 }
 
+::selection {
+    background: #ea2340;
+    color: #fff;
+}
 
-/* Header */
+
+/* Header Menu */
 
 .ui-menu {
     float: right;
@@ -27,6 +34,26 @@ ul {
 
 .ui-menu img {
     width: 20px;
+}
+
+.normal-menu {
+    padding-top: 20px;
+    float: right;
+}
+
+.normal-menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.normal-menu li a {
+    color: #1c1d24;
+    font-weight: 300;
+}
+
+.normal-menu li a:hover {
+    color: #ea2340;
 }
 
 
@@ -54,7 +81,6 @@ ul {
     font-size: 25px;
     color: #818181;
     display: block;
-    transition: 0.3s;
 }
 
 
@@ -117,8 +143,88 @@ ul {
     height: 100vh;
 }
 
-.pictureme img {
+#design {
+    position: relative;
     max-width: 100%;
-    height: 450px;
-    object-fit: cover;
+    width: 430px;
+    height: 430px;
+    margin: auto;
+}
+
+#design>*,
+#blend>* {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#rotatedBorder {
+    box-sizing: border-box;
+    border: 15px #ea2340 solid;
+    transform: rotate(45deg);
+    box-shadow: 0 0 10px #ea2340, inset 0 0 20px #eb311f;
+}
+
+.grid {
+    display: grid;
+    grid: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+[data-white] {
+    background-color: white;
+}
+
+#blend {
+    mix-blend-mode: multiply;
+}
+
+#design>img {
+    box-shadow: 0 0 20px #bac3c3;
+}
+
+
+/* Right dirction */
+
+.textHead {
+    margin-top: 130px;
+}
+
+.textHead h1 {
+    font-family: 'Prata', serif;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.textHead button {
+    border: 2px solid #000;
+    background: #fff;
+    padding: 5px 20px;
+    font-size: 18px;
+}
+
+.textHead button img {
+    padding-left: .5rem;
+    transition: ease-in .2s;
+}
+
+.textHead button:hover img {
+    padding-left: 20px;
+}
+
+.textHead a {
+    font-size: 18px;
+    color: #1c1d24;
+}
+
+.textHead a:hover {
+    color: #ea2340;
+}
+
+
+/* About Section */
+
+#about {
+    background: #ea2340;
+    color: #fefefe;
+    width: 100%;
 }

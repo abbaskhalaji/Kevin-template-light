@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="tophead">
+    <div id="home" class="tophead">
         <header class="pt-5">
             <div class="container">
                 <div class="row justify-content-between">
@@ -24,17 +24,48 @@
                             <a href="#">Lina.</a>
                         </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-8">
                         <div class="main-menu">
-                            <div id="mySidenav" class="sidenav">
-                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                <a href="#">About</a>
-                                <a href="#">Services</a>
-                                <a href="#">Clients</a>
-                                <a href="#">Contact</a>
+                            <!-- Normal menu -->
+                            <div class="normal-menu d-none d-md-block" draggable="true">
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Works</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Clients</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
                             </div>
-                            <div class="ui-menu" draggable="true" onclick="openNav()">
-                                <img class="mt-3" src="icons/menu.png">
+                            <!-- Mobile menu -->
+                            <div class="mobile-menu d-md-none">
+                                <div id="mySidenav" class="sidenav">
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                    <a href="#">About</a>
+                                    <a href="#">Services</a>
+                                    <a href="#">Clients</a>
+                                    <a href="#">Contact</a>
+                                </div>
+                                <div class="ui-menu" draggable="true" onclick="openNav()">
+                                    <img class="mt-3" src="icons/menu.png">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -46,20 +77,58 @@
                 <div class="row">
                     <div class="col"></div>
                     <div class="col-4">
-                        <div class="pictureme">
-                            <img src="img/Photome.jpg" alt="Lina">
+                        <div id=design>
+
+                            <img src="img/Photome.jpg">
+
+                            <div id=rotatedBorder></div>
+
+                            <div class=grid>
+                                <div data-white></div>
+                                <div></div>
+                                <div></div>
+                                <div data-white></div>
+                            </div>
+
+                            <div id=blend>
+                                <img src="img/Photome.jpg">
+                                <div class=grid>
+                                    <div></div>
+                                    <div data-white></div>
+                                    <div data-white></div>
+                                    <div></div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="col-7">
-                        <div class="textHead">
-
+                    <div class="col-1"></div>
+                    <div class="col-6">
+                        <div class="textHead ml-5">
+                            <h1>Hi, My name is Lina,<br/>I'm a UI/UX designer based<br/>in London.</h1>
+                            <div class="linksHead mt-4">
+                                <button class="mt-3 float-left">Let's talk <img src="icons/right.png" class="py-1"></button>
+                                <a href="#" class="mt-4 float-right"><img src="icons/CV.png" class="py-1"> Download CV</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </div>
+    <!-- About section -->
+    <section id="about">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-4">
 
+                </div>
+                <div class="col-5">
+
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
