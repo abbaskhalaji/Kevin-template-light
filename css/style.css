@@ -1,6 +1,5 @@
 body {
     font-family: 'Lato', sans-serif !important;
-    /* font-family: 'Prata', serif; */
     font-size: 17px !important;
     color: #000;
 }
@@ -22,6 +21,15 @@ ul {
 ::selection {
     background: #ea2340;
     color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+    font-family: 'Prata', serif;
 }
 
 
@@ -140,7 +148,11 @@ ul {
 .tophead {
     background: linear-gradient(to left, #fff 70%, #1c1d24 30%);
     ;
-    height: 110vh;
+    max-height: 100hv;
+}
+
+.pd-home {
+    padding: 70px 0 150px 0 !important;
 }
 
 #design {
@@ -227,7 +239,7 @@ ul {
     display: block;
     clear: both;
     background: #ea2340;
-    color: #fefefe;
+    color: #eee;
     width: 100%;
 }
 
@@ -248,5 +260,38 @@ ul {
 }
 
 .about-me p {
+    font-weight: 300;
+}
+
+
+/* Services Section */
+
+.section-title {
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+
+.service-box {
+    text-align: center;
+    padding: 20px 15px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.service-box:hover {
+    background: #f5eee6;
+}
+
+.service-icon img {
+    width: 75px;
+    height: 75px;
+}
+
+.service-box h3 {
+    font-size: 22px;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.service-box p {
     font-weight: 300;
 }
