@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif !important;
     /* font-family: 'Prata', serif; */
     font-size: 17px !important;
     color: #000;
@@ -140,7 +140,7 @@ ul {
 .tophead {
     background: linear-gradient(to left, #fff 70%, #1c1d24 30%);
     ;
-    height: 100vh;
+    height: 110vh;
 }
 
 #design {
@@ -224,7 +224,29 @@ ul {
 /* About Section */
 
 #about {
+    display: block;
+    clear: both;
     background: #ea2340;
     color: #fefefe;
     width: 100%;
+}
+
+.ex-number {
+    font-size: 250px;
+    font-weight: 700;
+}
+
+.ex-text {
+    font-size: 35px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 170px;
+}
+
+.about-me {
+    margin-top: 170px;
+}
+
+.about-me p {
+    font-weight: 300;
 }
