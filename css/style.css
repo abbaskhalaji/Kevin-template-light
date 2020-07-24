@@ -295,3 +295,75 @@ h5 {
 .service-box p {
     font-weight: 300;
 }
+
+
+/* Cliets section */
+
+.client {
+    text-align: center;
+}
+
+.client img {
+    width: 70px !important;
+    height: 70px;
+    border-radius: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.client h4 {
+    font-size: 19px;
+    font-weight: 700;
+    display: block;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.client p {
+    font-weight: 300;
+    padding: 0 15px;
+}
+
+
+/* Blog section */
+
+.blogpost {
+    border-radius: 5px;
+    transition: all .2s;
+}
+
+.blogpost:hover {
+    background: #f5eee6;
+    box-shadow: 1px 3px 15px #E0E0E0;
+}
+
+.blogpost figure img {
+    max-width: 100%;
+    max-height: 240px;
+    border-radius: 5px 5px 0 0;
+}
+
+.pbox {
+    padding: 5px 15px;
+}
+
+.post-date {
+    font-size: 15px;
+}
+
+.post-date img {
+    width: 20px;
+}
+
+.pbox h3 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.pbox h3 a {
+    color: #000;
+}
+
+.pbox h3 a:hover {
+    color: #ea2340;
+}
