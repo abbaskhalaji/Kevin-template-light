@@ -367,3 +367,87 @@ h5 {
 .pbox h3 a:hover {
     color: #ea2340;
 }
+
+
+/* Contact me */
+
+#contact {
+    background: #f5eee6;
+    padding: 80px 0;
+    margin-top: 50px;
+}
+
+.redshape {
+    width: 250px;
+    height: 15px;
+    background: #ea2340;
+    color: #ea2340;
+    position: relative;
+    float: right;
+    right: 0;
+    top: -85px;
+}
+
+.talk-sec h2 {
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.talk-sec p {
+    font-weight: 300;
+}
+
+.contact-box {
+    float: right;
+    margin-top: 20px;
+}
+
+.contact-box ul li {
+    list-style: none;
+    padding: 7px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    outline: none;
+    box-shadow: 1px 2px 10px #E0E0E0;
+    margin: 8px 0;
+}
+
+input#name,
+input#email {
+    width: 49%;
+}
+
+input#name {
+    float: left;
+}
+
+input#email {
+    float: right;
+}
+
+input#subject {
+    width: 100%;
+}
+
+#message {
+    display: block;
+    width: 100%;
+}
+
+#submit {
+    background: #ea2340;
+    color: #fff;
+    margin-top: 10px;
+    padding: 8px 20px;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+#submit:hover {
+    background: #b40d1a;
+}
