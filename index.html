@@ -18,7 +18,7 @@
 
 <body>
     <div id="home" class="tophead">
-        <header class="pt-5">
+        <header id="myHeader">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-3">
@@ -33,25 +33,25 @@
                                 <nav>
                                     <ul>
                                         <li>
-                                            <a href="#">Home</a>
+                                            <a href="#home">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#about">About</a>
                                         </li>
                                         <li>
-                                            <a href="#">Services</a>
+                                            <a href="#services">Services</a>
                                         </li>
                                         <li>
-                                            <a href="#">Works</a>
+                                            <a href="#works">Works</a>
                                         </li>
                                         <li>
-                                            <a href="#">Clients</a>
+                                            <a href="#clients">Clients</a>
                                         </li>
                                         <li>
-                                            <a href="#">Blog</a>
+                                            <a href="#blog">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="#">Contact</a>
+                                            <a href="#contact">Contact</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -60,10 +60,13 @@
                             <div class="mobile-menu d-md-none">
                                 <div id="mySidenav" class="sidenav">
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                    <a href="#">About</a>
-                                    <a href="#">Services</a>
-                                    <a href="#">Clients</a>
-                                    <a href="#">Contact</a>
+                                    <a href="#home">Home</a>
+                                    <a href="#about">About</a>
+                                    <a href="#services">Services</a>
+                                    <a href="#works">Works</a>
+                                    <a href="#clients">Clients</a>
+                                    <a href="#blog">Blog</a>
+                                    <a href="#contact">Contact</a>
                                 </div>
                                 <div class="ui-menu" draggable="true" onclick="openNav()">
                                     <img class="mt-3" src="icons/menu.png">
@@ -74,7 +77,7 @@
                 </div>
             </div>
         </header>
-        <section>
+        <section id="home">
             <div class="container pd-home">
                 <div class="row">
                     <div class="col"></div>
@@ -183,7 +186,7 @@
             </div>
         </div>
     </section>
-    <!-- Works section
+    <!-- Works section  -->
     <section id="works">
         <div class="container">
             <div class="row">
@@ -193,9 +196,17 @@
                     </div>
                 </div>
             </div>
-
+            <div class="row">
+                <div class="col-4">
+                    <div class="awork">
+                        <a href="#">
+                            <img src="img/blog-02.jpg" alt="Project">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section> -->
+    </section>
 
     <section id="clients">
         <div class="container">
@@ -414,6 +425,25 @@
             })
 
         });
+
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        // Get the header
+        var header = document.getElementById("myHeader");
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("headersticky");
+            } else {
+                header.classList.remove("headersticky");
+            }
+        }
     </script>
 </body>
 

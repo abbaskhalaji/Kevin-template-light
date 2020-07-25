@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Lato', sans-serif !important;
     font-size: 17px !important;
@@ -35,6 +39,10 @@ h5 {
 
 /* Header Menu */
 
+#myHeader {
+    padding-top: 3rem;
+}
+
 .ui-menu {
     float: right;
     cursor: pointer;
@@ -62,6 +70,21 @@ h5 {
 
 .normal-menu li a:hover {
     color: #ea2340;
+}
+
+.normal-menu li a:active {
+    color: blue;
+}
+
+.headersticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 99;
+    padding: 0.5rem 0!important;
+    transition: all .5s;
+    box-shadow: 1px 1px 16px #BDBDBD;
 }
 
 
@@ -280,6 +303,7 @@ h5 {
 
 .service-box:hover {
     background: #f5eee6;
+    box-shadow: 1px 3px 15px #E0E0E0;
 }
 
 .service-icon img {
@@ -294,6 +318,19 @@ h5 {
 
 .service-box p {
     font-weight: 300;
+}
+
+
+/* Works */
+
+.awork {
+    margin: 15px 0;
+}
+
+.awork a img {
+    max-width: 100%;
+    min-height: 240px;
+    border-radius: 3px;
 }
 
 
@@ -321,6 +358,22 @@ h5 {
 .client p {
     font-weight: 300;
     padding: 0 15px;
+}
+
+.owl-prev,
+.owl-next {
+    font-size: 70px !important;
+    position: absolute;
+    top: 50px;
+    outline: none !important;
+}
+
+.owl-next {
+    right: -15px;
+}
+
+.owl-prev {
+    left: -15px;
 }
 
 
@@ -374,7 +427,7 @@ h5 {
 #contact {
     background: #f5eee6;
     padding: 80px 0;
-    margin-top: 50px;
+    margin-top: 110px;
 }
 
 .redshape {
