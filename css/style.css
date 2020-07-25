@@ -451,3 +451,30 @@ input#subject {
 #submit:hover {
     background: #b40d1a;
 }
+
+
+/* Footer */
+
+#footerlina {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fo-socialmedia li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.fo-socialmedia li a img {
+    width: 24px;
+}
+
+.copyright {
+    color: #eee;
+    font-weight: 300;
+    font-size: 16px;
+}
