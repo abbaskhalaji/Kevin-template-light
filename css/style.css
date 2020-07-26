@@ -41,6 +41,7 @@ h5 {
 
 #myHeader {
     padding-top: 3rem;
+    transition: all .5s;
 }
 
 .ui-menu {
@@ -273,7 +274,7 @@ h5 {
 }
 
 .ex-number {
-    font-size: 250px;
+    font-size: 210px;
     font-weight: 700;
 }
 
@@ -281,11 +282,11 @@ h5 {
     font-size: 35px;
     text-align: left;
     font-weight: 700;
-    margin-top: 170px;
+    margin-top: 130px;
 }
 
 .about-me {
-    margin-top: 140px;
+    margin-top: 130px;
 }
 
 .about-me p {
@@ -332,6 +333,10 @@ h5 {
 .awork {
     margin: 15px 0;
     position: relative;
+}
+
+.awork:hover {
+    box-shadow: 1px 3px 15px #E0E0E0;
 }
 
 .awork a img {
@@ -451,7 +456,7 @@ h5 {
 }
 
 .pbox h3 a {
-    color: #000;
+    color: #212121;
 }
 
 .pbox h3 a:hover {
@@ -568,3 +573,6 @@ input#subject {
     font-weight: 300;
     font-size: 16px;
 }
+
+
+/* 404 Page style */
