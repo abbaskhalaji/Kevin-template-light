@@ -576,3 +576,100 @@ input#subject {
 
 
 /* 404 Page style */
+
+.error-message {
+    text-align: center;
+}
+
+.emt {
+    font-size: 150px;
+    font-family: 'Prata', serif;
+    color: #212121;
+}
+
+.error-message h1 {
+    font-size: 30px;
+}
+
+.error-message a {
+    background: #ea2340;
+    color: #fff;
+    margin: 20px 0;
+    padding: 8px 20px;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+.error-message a:hover {
+    background: #b40d1a;
+    color: #fff;
+}
+
+
+/* Page title */
+
+.page-title {
+    background: rgb(170, 55, 72);
+    background: linear-gradient(90deg, rgba(170, 55, 72, 1) 0%, rgba(173, 5, 30, 1) 35%, rgba(234, 35, 64, 1) 100%);
+    color: #fff;
+    text-align: center;
+}
+
+.page-title h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif !important;
+}
+
+
+/* breadcrumb */
+
+.page-breadcrumb {
+    text-align: center;
+    background: none;
+    margin-top: 15px;
+}
+
+.page-breadcrumb a {
+    color: #eee;
+    font-size: 18px;
+}
+
+.page-breadcrumb a:hover {
+    color: #fff;
+}
+
+.page-breadcrumb ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
+/* Page count */
+
+.page-count {
+    text-align: center;
+}
+
+.page-count ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+    transition: all .3s;
+}
+
+.page-count ul li a {
+    color: #1c1d24;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.page-count ul li a:hover {
+    background: #f5eee6;
+    color: #1c1d24;
+}
+
+.active a {
+    background: #f5eee6;
+    color: #1c1d24;
+}
