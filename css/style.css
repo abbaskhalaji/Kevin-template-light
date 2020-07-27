@@ -40,7 +40,7 @@ h5 {
 /* Header Menu */
 
 #myHeader {
-    padding-top: 3rem;
+    padding-top: 1rem;
     transition: all .5s;
 }
 
@@ -672,4 +672,95 @@ input#subject {
 .active a {
     background: #f5eee6;
     color: #1c1d24;
+}
+
+
+/* Single blog style */
+
+.post-img img {
+    border-radius: 3px;
+}
+
+.post-content p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #1c1d24;
+    line-height: 30px;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.tags {
+    text-align: center;
+}
+
+.tags ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+    transition: all .3s;
+    font-size: 15px;
+}
+
+.tags ul li a {
+    background: #f5eee6;
+    color: #1c1d24;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+.tags ul li a:hover {
+    background: #ea2340;
+    color: #fff;
+}
+
+.active a {
+    background: #f5eee6;
+    color: #1c1d24;
+}
+
+.pnp-blog {
+    padding: 25px 20px;
+    background: #f5eee6;
+    border-radius: 3px;
+    color: #212121;
+    transition: all .3s;
+}
+
+.pnp-blog:hover {
+    color: #fff;
+    background: rgb(170, 55, 72);
+    background: linear-gradient(90deg, rgba(170, 55, 72, 1) 0%, rgba(173, 5, 30, 1) 35%, rgba(234, 35, 64, 1) 100%);
+}
+
+.pnp-blog h3 {
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.preandnext {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#morearticle {
+    background: #eee;
+    padding-bottom: 50px;
+}
+
+.sec-more {
+    text-align: center;
+    margin: 80px 0 50px 0;
+}
+
+.next-post {
+    text-align: right;
 }
