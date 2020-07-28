@@ -20,6 +20,13 @@
     .about-me {
         margin-top: 100px;
     }
+    .tags ul li {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    .pnp-blog h3 {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 767px) {

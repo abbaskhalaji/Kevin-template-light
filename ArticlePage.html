@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/respansive.css">
+
     <!-- Page title -->
     <title>Article Page</title>
 </head>
@@ -154,7 +154,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-sm-6 col-md-4">
                     <div class="blogpost pb-3">
                         <figure>
                             <img src="img/blog-01.jpg" alt="">
@@ -169,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-sm-6 col-md-4">
                     <div class="blogpost pb-3">
                         <figure>
                             <img src="img/blog-02.jpg" alt="">
@@ -184,7 +184,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-sm-6 col-md-4">
                     <div class="blogpost pb-3">
                         <figure>
                             <img src="img/blog-03.jpg" alt="">
@@ -206,8 +206,8 @@
 
     <div class="container mb-5">
         <div class="row">
-            <div class="col"></div>
-            <div class="col-8">
+            <div class="col-md"></div>
+            <div class="col-12 col-md-8">
                 <div class="comments mb-4">
                     <div class="sec-more">
                         <h2>Comments</h2>
@@ -220,7 +220,7 @@
                     </form>
                 </div>
             </div>
-            <div class="col"></div>
+            <div class="col-md"></div>
         </div>
     </div>
 
@@ -263,7 +263,6 @@
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
     <script>
         /* Set the width of the side navigation to 250px */
         function openNav() {
@@ -274,27 +273,6 @@
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
         }
-
-        /* Clients Slider */
-        $(document).ready(function() {
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 20,
-                nav: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 2
-                    },
-                    1000: {
-                        items: 3
-                    }
-                }
-            })
-
-        });
 
         // When the user scrolls the page, execute myFunction
         window.onscroll = function() {
