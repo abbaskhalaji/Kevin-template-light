@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve" width="512px" height="512px" class="hovered-paths"><g><path style="fill:#EA2340" d="M176,400H32V192h144V400z" data-original="#FFA64D" class="active-path" data-old_color="#FFA64D"/><g>
+	<rect x="32" y="32" style="fill:#333333" width="16" height="16" data-original="#333333" class="" data-old_color="#333333"/>
+	<rect x="64" y="32" style="fill:#333333" width="16" height="16" data-original="#333333" class="" data-old_color="#333333"/>
+	<rect x="96" y="32" style="fill:#333333" width="16" height="16" data-original="#333333" class="" data-old_color="#333333"/>
+	<path style="fill:#333333" d="M416,96H32v80h384V96z M400,160H48v-48h352V160z" data-original="#333333" class="" data-old_color="#333333"/>
+	<path style="fill:#333333" d="M448,233.456V0H0v432h220.296c27.584,38.664,72.696,64,123.704,64c83.816,0,152-68.184,152-152   C496,300.432,477.472,261.192,448,233.456z M432,16v48H16V16H432z M16,416V80h416v140.296C407.136,202.552,376.808,192,344,192   c-83.816,0-152,68.184-152,152c0,26.04,6.6,50.552,18.184,72H16z M344,480c-74.992,0-136-61.008-136-136s61.008-136,136-136   s136,61.008,136,136S418.992,480,344,480z" data-original="#333333" class="" data-old_color="#333333"/>
+	<path style="fill:#333333" d="M344,416c-26.472,0-48-21.528-48-48h-16c0,35.288,28.712,64,64,64s64-28.712,64-64h-16   C392,394.472,370.472,416,344,416z" data-original="#333333" class="" data-old_color="#333333"/>
+	<path style="fill:#333333" d="M304,296c0-13.232-10.768-24-24-24s-24,10.768-24,24s10.768,24,24,24S304,309.232,304,296z M272,296   c0-4.408,3.584-8,8-8s8,3.592,8,8s-3.584,8-8,8S272,300.408,272,296z" data-original="#333333" class="" data-old_color="#333333"/>
+	<path style="fill:#333333" d="M408,272c-13.232,0-24,10.768-24,24s10.768,24,24,24s24-10.768,24-24S421.232,272,408,272z M408,304   c-4.416,0-8-3.592-8-8s3.584-8,8-8s8,3.592,8,8S412.416,304,408,304z" data-original="#333333" class="" data-old_color="#333333"/>
+	<rect x="64" y="224" style="fill:#333333" width="16" height="16" data-original="#333333" class="" data-old_color="#333333"/>
+	<rect x="96" y="224" style="fill:#333333" width="48" height="16" data-original="#333333" class="" data-old_color="#333333"/>
+	<rect x="64" y="256" style="fill:#333333" width="80" height="16" data-original="#333333" class="" data-old_color="#333333"/>
+	<rect x="128" y="352" style="fill:#333333" width="16" height="16" data-original="#333333" class="" data-old_color="#333333"/>
+	<rect x="64" y="352" style="fill:#333333" width="48" height="16" data-original="#333333" class="" data-old_color="#333333"/>
+	<rect x="64" y="288" style="fill:#333333" width="80" height="16" data-original="#333333" class="" data-old_color="#333333"/>
+	<rect x="64" y="320" style="fill:#333333" width="80" height="16" data-original="#333333" class="" data-old_color="#333333"/>
+</g></g> </svg>

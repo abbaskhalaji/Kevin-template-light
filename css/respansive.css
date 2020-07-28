@@ -1,0 +1,68 @@
+@media (min-width: 2000px) {
+    .tophead {
+        background: linear-gradient(to left, #fff 60%, #1c1d24 40%);
+        ;
+    }
+}
+
+@media (min-width: 4000px) {
+    .tophead {
+        background: linear-gradient(to left, #fff 55%, #1c1d24 45%);
+        ;
+    }
+}
+
+@media (max-width: 991px) {
+    .tophead {
+        background: linear-gradient(to left, #fff 100%, #1c1d24 0%);
+        ;
+    }
+    .about-me {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-me {
+        margin-top: 0px !important;
+        padding-bottom: 50px;
+    }
+    .contact-box {
+        float: left;
+        margin-top: 20px;
+    }
+    .pcnt {
+        padding: 0px 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    #about {
+        text-align: center;
+    }
+    .ex-text {
+        font-size: 29px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .owl-prev {
+        left: 15px;
+    }
+    .owl-next {
+        right: 15px;
+    }
+    .textHead h1 {
+        text-align: center;
+    }
+    .linksHead button {
+        margin: 20px auto;
+        display: block;
+    }
+    .textHead a {
+        margin-top: 50px !important;
+        text-align: center;
+        border-bottom: 0;
+        display: block;
+    }
+}
