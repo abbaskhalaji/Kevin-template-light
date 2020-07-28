@@ -655,6 +655,7 @@ input#subject {
     text-align: center;
     background: none;
     margin-top: 15px;
+    color: #eee;
 }
 
 .page-breadcrumb a {
