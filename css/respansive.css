@@ -41,6 +41,12 @@
     .pcnt {
         padding: 0px 25px;
     }
+    .page-count ul li {
+        margin-top: 20px;
+    }
+    .page-count ul li a {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 575px) {

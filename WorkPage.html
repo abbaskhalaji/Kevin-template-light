@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/respansive.css">
 
     <!-- Page title -->
@@ -90,6 +88,7 @@
                         <div class="post-info page-breadcrumb">
                             <ul>
                                 <li class="author">by Alex Touy</li>
+                                <li class="date-publish">June 02, 2020</li>
                                 <li class="post-category">
                                     <a href="#">Web design</a>
                                 </li>
@@ -102,7 +101,7 @@
     </section>
     <div class="container mt-5">
         <div class="row">
-            <div class="col-5">
+            <div class="col-12 col-md-5">
                 <div class="post-content mt-5 mb-3">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque.
                 </div>
@@ -115,7 +114,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-7">
+            <div class="col-12 col-md-7">
                 <div class="my-post">
                     <div class="post-img">
                         <img src="img/blog-03.jpg" alt="">
@@ -152,7 +151,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <div class="awork">
                         <a href="#">
                             <img src="img/blog-02.jpg" alt="Project">
@@ -162,7 +161,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <div class="awork">
                         <a href="#">
                             <img src="img/blog-02.jpg" alt="Project">
@@ -172,7 +171,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <div class="awork">
                         <a href="#">
                             <img src="img/blog-02.jpg" alt="Project">
@@ -189,8 +188,8 @@
 
     <div class="container mb-5">
         <div class="row">
-            <div class="col"></div>
-            <div class="col-8">
+            <div class="col-md"></div>
+            <div class="col-12 col-md-8">
                 <div class="comments mb-4">
                     <div class="sec-more">
                         <h2>Comments</h2>
@@ -203,7 +202,7 @@
                     </form>
                 </div>
             </div>
-            <div class="col"></div>
+            <div class="col-md"></div>
         </div>
     </div>
 
@@ -255,27 +254,6 @@
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
         }
-
-        /* Clients Slider */
-        $(document).ready(function() {
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 20,
-                nav: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 2
-                    },
-                    1000: {
-                        items: 3
-                    }
-                }
-            })
-
-        });
 
         // When the user scrolls the page, execute myFunction
         window.onscroll = function() {
