@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Main Styles -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Animate -->
+    <link href="css/aos.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/respansive.css">
@@ -218,7 +220,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="footercontent">
+                    <div class="footercontent" data-aos="zoom-in-up">
                         <div class="logo pt-5 pb-4" draggable="true">
                             <a href="#" class="lightlogo">
                                 <img src="img/logo-light.png" alt="Lina">
@@ -249,6 +251,8 @@
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- Animate -->
+    <script src="js/aos.js"></script>
     <script>
         /* Mobile menu */
         function openNav() {
@@ -272,6 +276,8 @@
                 header.classList.remove("headersticky");
             }
         }
+        // animate start
+        AOS.init();
     </script>
 </body>
 

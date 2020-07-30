@@ -6,6 +6,8 @@
 
     <!-- Main Styles -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Animate -->
+    <link href="css/aos.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Page title -->
@@ -85,7 +87,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="error-message mb-5">
-                        <div class="emt mb-2">404</div>
+                        <div class="emt mb-2" data-aos="flip-right">404</div>
                         <h1>oh! I'm sorry, This page is not found...</h1>
                         <p class="mb-4">Please back to home and try again</p>
                         <a href="./index.html">Back to Home</a>
@@ -99,7 +101,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="footercontent">
+                    <div class="footercontent" data-aos="zoom-in-up">
                         <div class="logo pt-5 pb-4" draggable="true">
                             <a href="#" class="lightlogo">
                                 <img src="img/logo-light.png" alt="Lina">
@@ -130,6 +132,8 @@
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- Animate -->
+    <script src="js/aos.js"></script>
     <script>
         /* Mobile menu */
         function openNav() {
@@ -154,6 +158,9 @@
                 header.classList.remove("headersticky");
             }
         }
+
+        // animate start
+        AOS.init();
     </script>
 </body>
 
