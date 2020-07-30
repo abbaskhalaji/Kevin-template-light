@@ -367,6 +367,7 @@ h5 {
 .awork {
     margin: 15px 0;
     position: relative;
+    height: 250px;
 }
 
 .awork:hover {
@@ -375,8 +376,10 @@ h5 {
 
 .awork a img {
     max-width: 100%;
-    min-height: 240px;
+    max-height: 100%;
     border-radius: 3px;
+    height: 100%;
+    width: 100%;
 }
 
 .overlay {
@@ -774,6 +777,8 @@ input#subject {
 
 .post-img img {
     border-radius: 3px;
+    width: 100%;
+    max-width: 750px;
 }
 
 .post-content p {
