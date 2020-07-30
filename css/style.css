@@ -7,7 +7,13 @@
 *------------------------------------------------------------
 */
 
+
+/* Google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Prata&display=swap');
+
+/* Basic */
+
 html {
     scroll-behavior: smooth;
 }
@@ -47,7 +53,10 @@ h5 {
 }
 
 
-/* Header Menu */
+/* Basic end */
+
+
+/* Header MENU */
 
 #myHeader {
     padding-top: 1rem;
@@ -99,7 +108,10 @@ h5 {
 }
 
 
-/* The side navigation menu */
+/* Header menu end */
+
+
+/* Mobile MENU */
 
 .sidenav {
     height: 100%;
@@ -114,9 +126,6 @@ h5 {
     transition: 0.5s;
 }
 
-
-/* The navigation menu links */
-
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -125,15 +134,9 @@ h5 {
     display: block;
 }
 
-
-/* When you mouse over the navigation links, change their color */
-
 .sidenav a:hover {
     color: #f1f1f1;
 }
-
-
-/* Position and style the close button (top right corner) */
 
 .sidenav .closebtn {
     position: absolute;
@@ -143,16 +146,10 @@ h5 {
     margin-left: 50px;
 }
 
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-
 #main {
     transition: margin-left .5s;
     padding: 20px;
 }
-
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 
 @media screen and (max-height: 450px) {
     .sidenav {
@@ -164,7 +161,10 @@ h5 {
 }
 
 
-/* Logo */
+/* Mobile MENU end */
+
+
+/* Logo Header */
 
 .logo a img {
     width: 70px;
@@ -183,7 +183,28 @@ h5 {
 }
 
 
-/* Head Section */
+/* Logo Header end */
+
+
+/* Index.html section basic */
+
+#services,
+#works,
+#clientstextHead,
+#blog {
+    margin: 90px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin: 15px 0 50px 0;
+}
+
+
+/** Index.html section basic end **/
+
+
+/* Home Section */
 
 .tophead {
     background: linear-gradient(to left, #fff 70%, #1c1d24 30%);
@@ -234,9 +255,6 @@ h5 {
     box-shadow: 0 0 20px #bac3c3;
 }
 
-
-/* Right dirction */
-
 .textHead {
     margin-top: 130px;
 }
@@ -275,6 +293,9 @@ h5 {
 }
 
 
+/** Home Section end **/
+
+
 /* About Section */
 
 #about {
@@ -306,6 +327,9 @@ h5 {
 }
 
 
+/** About Section end **/
+
+
 /* Services Section */
 
 .service-box {
@@ -333,6 +357,9 @@ h5 {
 .service-box p {
     font-weight: 300;
 }
+
+
+/** Services Section end **/
 
 
 /* Works */
@@ -382,17 +409,8 @@ h5 {
     text-align: center;
 }
 
-#services,
-#works,
-#clientstextHead,
-#blog {
-    margin: 90px 0;
-}
 
-.section-title {
-    text-align: center;
-    margin: 15px 0 50px 0;
-}
+/** Works end **/
 
 
 /* Cliets section */
@@ -449,6 +467,9 @@ h5 {
 }
 
 
+/** Cliets section end **/
+
+
 /* Blog section */
 
 .blogpost {
@@ -493,6 +514,9 @@ h5 {
 .pbox h3 a:hover {
     color: #ea2340;
 }
+
+
+/** Blog section end **/
 
 
 /* Contact me */
@@ -581,6 +605,9 @@ input#subject {
 }
 
 
+/** Contact me end **/
+
+
 /* Footer */
 
 #footerlina {
@@ -611,6 +638,9 @@ input#subject {
     font-weight: 300;
     font-size: 16px;
 }
+
+
+/** Footer end **/
 
 
 /* 404 Page style */
@@ -644,6 +674,9 @@ input#subject {
 }
 
 
+/** 404 Page style end **/
+
+
 /* Page title */
 
 .page-title {
@@ -658,9 +691,6 @@ input#subject {
     font-weight: 700;
     font-family: 'Lato', sans-serif !important;
 }
-
-
-/* breadcrumb */
 
 .page-breadcrumb {
     text-align: center;
@@ -682,6 +712,9 @@ input#subject {
     display: inline-block;
     padding: 0 15px;
 }
+
+
+/** Page title end **/
 
 
 /* Page count */
@@ -714,7 +747,10 @@ input#subject {
 }
 
 
-/* Single blog style */
+/** Page count end **/
+
+
+/* post-detail.html style */
 
 .post-img img {
     border-radius: 3px;
@@ -844,3 +880,9 @@ input#subject {
 #submit:hover {
     background: #b40d1a;
 }
+
+
+/** Comment section end **/
+
+
+/** post-detail.html style end **/
