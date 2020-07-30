@@ -1,21 +1,18 @@
 @media (min-width: 2000px) {
     .tophead {
         background: linear-gradient(to left, #fff 60%, #1c1d24 40%);
-        ;
     }
 }
 
 @media (min-width: 4000px) {
     .tophead {
         background: linear-gradient(to left, #fff 55%, #1c1d24 45%);
-        ;
     }
 }
 
 @media (max-width: 991px) {
     .tophead {
         background: linear-gradient(to left, #fff 100%, #1c1d24 0%);
-        ;
     }
     .about-me {
         margin-top: 100px;

@@ -18,10 +18,12 @@
 
 <body>
     <div id="home" class="tophead">
+        <!-- Header -->
         <header id="myHeader">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-3">
+                        <!-- Logo -->
                         <div class="logo mt-3" draggable="true">
                             <a href="./index.html" class="lightlogo">
                                 <img src="img/logo-light.png" class="d-none d-lg-block" alt="Lina">
@@ -31,6 +33,7 @@
                                 <img src="img/logo-dark.png" alt="Lina">
                             </a>
                         </div>
+                        <!-- Logo end -->
                     </div>
                     <div class="col-8">
                         <div class="main-menu">
@@ -62,6 +65,7 @@
                                     </ul>
                                 </nav>
                             </div>
+                            <!-- Normal menu end -->
                             <!-- Mobile menu -->
                             <div class="mobile-menu d-lg-none">
                                 <div id="mySidenav" class="sidenav">
@@ -78,11 +82,14 @@
                                     <img class="mt-3" src="icons/menu.png">
                                 </div>
                             </div>
+                            <!-- Mobile menu end -->
                         </div>
                     </div>
                 </div>
             </div>
         </header>
+        <!-- Header end -->
+        <!-- Home Section -->
         <section id="home">
             <div class="container pd-home">
                 <div class="row">
@@ -126,6 +133,7 @@
                 </div>
             </div>
         </section>
+        <!-- Home section end -->
     </div>
     <!-- About section -->
     <section id="about">
@@ -151,6 +159,7 @@
             </div>
         </div>
     </section>
+    <!-- About section end -->
     <!-- Services Section -->
     <section id="services">
         <div class="container">
@@ -192,6 +201,7 @@
             </div>
         </div>
     </section>
+    <!-- Services Section end -->
     <!-- Works section  -->
     <section id="works">
         <div class="container">
@@ -266,7 +276,8 @@
             </div>
         </div>
     </section>
-
+    <!-- Works section end -->
+    <!-- Clients section -->
     <section id="clients">
         <div class="container">
             <div class="row">
@@ -317,7 +328,8 @@
             </div>
         </div>
     </section>
-
+    <!-- Clients section end -->
+    <!-- Blog Section -->
     <section id="blog">
         <div class="container">
             <div class="row">
@@ -376,6 +388,8 @@
             </div>
         </div>
     </section>
+    <!-- Blog Section end -->
+
     <!-- Contact Section -->
     <section id="contact">
         <div class="redshape">-</div>
@@ -420,6 +434,8 @@
             </div>
         </div>
     </section>
+    <!-- Contact Section end -->
+
     <!-- Footer -->
     <footer id="footerlina">
         <div class="container">
@@ -450,19 +466,20 @@
             </div>
         </div>
     </footer>
+    <!-- Footer end -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- OWL SLIDER -->
     <script src="js/owl.carousel.min.js"></script>
     <script>
-        /* Set the width of the side navigation to 250px */
+        /* Mobile menu */
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
         }
 
-        /* Set the width of the side navigation to 0 */
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
         }
@@ -488,17 +505,13 @@
 
         });
 
-        // When the user scrolls the page, execute myFunction
+        // Header sticky
         window.onscroll = function() {
             myFunction()
         };
-
-        // Get the header
         var header = document.getElementById("myHeader");
-        // Get the offset position of the navbar
         var sticky = header.offsetTop;
 
-        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
         function myFunction() {
             if (window.pageYOffset > sticky) {
                 header.classList.add("headersticky");
