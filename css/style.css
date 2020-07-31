@@ -525,13 +525,13 @@ h5 {
 }
 
 .pbox h3 {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
     font-family: 'Lato', sans-serif !important;
 }
 
 .pbox h3 a {
-    color: #212121;
+    color: #424242;
 }
 
 .pbox h3 a:hover {
@@ -784,6 +784,7 @@ input#subject {
 .post-content h5,
 .post-content h6 {
     font-family: 'Lato', sans-serif !important;
+    font-weight: 700;
 }
 
 .tags {
