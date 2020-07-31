@@ -233,7 +233,7 @@ h5 {
 
 #rotatedBorder {
     box-sizing: border-box;
-    border: 15px #ea2340 solid;
+    border: 10px #ea2340 solid;
     transform: rotate(45deg);
     box-shadow: 0 0 10px #ea2340, inset 0 0 20px #eb311f;
 }
@@ -548,18 +548,7 @@ h5 {
     background: #f5eee6;
     padding: 80px 0;
     margin-top: 110px;
-    position: relative;
-}
-
-.redshape {
-    width: 250px;
-    height: 15px;
-    background: #ea2340;
-    color: #ea2340;
-    position: absolute;
-    float: right;
-    right: 0;
-    top: -5px;
+    border-top: 2px solid #ea2340;
 }
 
 .talk-sec h2 {
