@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------
-* Template Name    : Lina - Personal Bootstrap 4.5 theme
+* Template Name    : Kevin - Personal Bootstrap 4.5 theme
 * Author           : EvinCode
 * Version          : 1.0.0
 * Created          : July 2020 
@@ -867,6 +867,7 @@ input#subject {
     box-shadow: 1px 2px 10px #E0E0E0;
     margin: 8px 0;
     color: #757575;
+    border: 1px solid #E0E0E0;
 }
 
 .sendcomment textarea {
