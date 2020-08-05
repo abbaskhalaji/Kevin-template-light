@@ -1,6 +1,8 @@
 # Kevin template (Light Version) :sunglasses:
 Kevin is a Responsive bootstrap 4.5 One Page Personal & Portfolio Template. It's minimal, creative, modern design. also, It has many features of a business website. This is built with HTML5, CSS3, Bootstrap4 and jQuery. Kevin has two versions of dark and light mode with clean code. all sections are commented.
 
+<a href="http://abbaskhalaji.com/OpenSource/Kevin/Landing/index.html">Preview Link</a>
+
 ![Untitled-1](https://user-images.githubusercontent.com/65848541/89378582-55a86c00-d709-11ea-8167-2d57c4dbfe3e.png)
 
 ## Features :blush:
